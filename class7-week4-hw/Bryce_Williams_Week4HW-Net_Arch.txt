@@ -1,0 +1,18 @@
+Week 4 HW: Network Architecture Deliverable
+
+Region: US-East-1 (N. Virginia)
+
+IP Address Space: 10.0.0.0/16
+
+3 Public Subnets/Availability Zone:
+Public-Subnet-1/use1-az1: 10.0.1.0/16
+Public-Subnet-2/use1-az2: 10.0.2.0/16
+Public Subnet-3/use1-az3: 10.0.3.0/16
+
+6 Private Subnets/Availability Zones:
+Private-Subnet-1/use1-az1: 10.0.11.0/16
+Private-Subnet-2/use1-az2: 10.0.12.0/16
+Private-Subnet-3/use1-az3: 10.0.13.0/16
+Private-Subnet-4/use1-az4: 10.0.14.0/16
+Private-Subnet-5/use1-az5: 10.0.15.0/16
+Private-Subnet-6/use1-az6: 10.0.16.0/16
