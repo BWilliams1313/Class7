@@ -1,0 +1,158 @@
+
+
+Course: Code With Mosh: The Ultimate Git Course -Master Git & Version Control 
+Course URL: https://www.youtube.com/watch?v=s14jwD-_Dds 
+Git Documentation: https://git-scm.com/docs 
+Date: Sunday 11/23/25
+
+**Core Skills List:**
+
+Install Git (Windows):
+https://git-scm.com/install/windows
+
+Git Help:
+git --help
+
+Configure Git (Name, Email, VS Code Editor and EoL):
+git config --global user.name "<string>"
+
+Configure Git Email:
+git config --global user.email "<string>"
+
+Configure Git Editor (VSCode):
+git config --global core.editor "code --wait"
+
+Configure Git EoL:
+git config --global core.autocrlf input
+
+View/Edit Git Configuration Settings:
+git config -e
+
+(Linux) Make a directory:
+mkdir <string>
+
+Initialize Working Directory:
+git init
+
+View Status Working Directory and Staging Area (Untracked/Tracked Files):
+git status
+git status -s
+
+Add Change from WD to SA:
+git add <path to file>
+
+Commit Change from SA to Repository:
+git commit -m "<string>"
+
+Commit Change from WD to Repo:
+git commit -ma "<string>"
+
+Remove Change from WD and SA Simultaneously:
+git rm <path to file>
+
+Move/Rename a Change (Applied to WD and SA):
+git mv <file name> <file name>
+
+Create .gitignore File:
+.gitignore
+
+Add File/Directory to .gitignore:
+code .gitignore
+Type dir/file name in ,gitignore file in VSCode, Save and Close
+Add .gitignore (from WD to SA), Commit .gitignore to Repo
+
+View Files in Staging Area:
+git ls-files
+
+Recursively Remove File from SA (Index):
+git rm --cached -r <path to file>
+
+View Change Differences in WD:
+git diff
+
+View Change Differences in SA:
+git diff --staged
+
+View Change Differences in Visual Diff Tool:
+git difftool 
+git difftool --staged
+
+View the Commit Log/History:
+git log
+git log --oneline
+git log --oneline --reverse
+
+View a Commit by Its Identifier:
+git show <identifier>
+
+View a Commit using the HEAD Pointer:
+git show HEAD~ (look at log and count number of commit lines to specific Commit)
+
+View a Commit using the HEAD Pointer
+git show HEAD~: <path to file>
+
+View all Dir/Files in a Commit:
+git ls-tree HEAD~ (look at log and count number of commit lines to specific Commit)
+
+View the Content in a Commit Blob or Tree:
+git show <long identifier>
+
+Restore a Dir/File in the SA to the WD:
+git remove --staged <file>
+
+Undo a WD (Local) Change/Copy Change from SA to WD/Remove
+git restore <path to file>
+
+Remove Untracked Files from WD:
+git clean -fd
+
+Remove a Change from WD and SA:
+git rm <file name>
+
+Commit Deleted Change:
+git commit -m "<string>"
+
+View History:
+git log --oneline
+
+Restore a Change From a Specific Point in History:
+git restore --source=HEAD~(number) <file name>
+
+Restore a Change to an Earlier Version:
+git rm <file name>
+
+
+
+Git Core Concepts List:
+
+Project
+Working Directory (WD)
+Staging Area/Index (SA)
+Repository
+Change/File Snapshot
+Dirty Working Directory (Untracked Change in WD)
+Clean Working Directory (Tracked Change)
+Tracked Change (File in SA)
+Stage a Deletion (from WD to SA)
+Commit a Deletion (from SA to Repo)
+Reminder: Deleted Changes must be Tracked, Staged and Committed
+Best Practice: Review SA before Commit
+Master Branch
+Commit Log Identifier
+HEAD (Current Branch)
+Master Branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
